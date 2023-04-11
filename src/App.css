@@ -1,0 +1,45 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bac-card {
+  background-color: #242424;
+  border: 1px solid gray;
+  padding: 1rem 4rem;
+  border-radius: .6rem;
+}
+
+.bac-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.input-form-col {
+  width: 100%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 1rem;
+}
+
+.bac-btn {
+  width: 100%;
+  padding: .6rem;
+  margin: 1rem 0; 
+}
+
+.bac-result {
+  color: lightskyblue;
+}
+
+
+
